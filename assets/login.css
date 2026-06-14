@@ -1,0 +1,146 @@
+.hero-title{
+
+    color:#F8FAFC;
+    font-size:55px;
+    text-align:center;
+
+    text-shadow:
+    0 0 20px rgba(168,85,247,.35);
+
+    margin-top:15px;
+
+}
+
+.hero-subtitle{
+
+    font-size:26px;
+    font-weight:600;
+    text-align:center;
+    color:#CBD5E1;
+
+}
+
+.hero-desc{
+
+    font-size:16px;
+    text-align:center;
+    color:#CBD5E1;
+    line-height:1.8;
+    max-width:900px;
+    margin:auto;
+
+}
+
+.block-container{
+
+    padding-top:1rem !important;
+    max-width:1200px;
+
+}
+
+[data-testid="stImage"]{
+
+    text-align:center;
+
+}
+
+[data-testid="stImage"] img{
+
+    width:100% !important;
+    max-width:420px !important;
+    height:auto !important;
+
+}
+
+/* INPUTS */
+
+.stTextInput input{
+
+    background:#111827 !important;
+
+    border:1px solid rgba(168,85,247,.25) !important;
+
+    color:white !important;
+
+}
+
+/* SELECT */
+
+.stSelectbox div[data-baseweb="select"]{
+
+    background:#111827 !important;
+
+    border:1px solid rgba(168,85,247,.25) !important;
+
+}
+
+/* BUTTON */
+
+.stButton button{
+
+    background:linear-gradient(
+        135deg,
+        #7C3AED,
+        #A855F7,
+        #D4B483
+    ) !important;
+
+    color:white !important;
+
+    border:none !important;
+
+    height:58px !important;
+
+    border-radius:18px !important;
+
+    font-weight:700 !important;
+
+}
+
+.stButton button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:
+    0 0 20px rgba(168,85,247,.4);
+
+}
+
+.stApp{
+
+    background:
+
+    radial-gradient(
+        circle at 15% 20%,
+        rgba(168,85,247,.12),
+        transparent 35%
+    ),
+
+    radial-gradient(
+        circle at 85% 25%,
+        rgba(124,58,237,.10),
+        transparent 40%
+    ),
+
+    radial-gradient(
+        circle at 50% 85%,
+        rgba(168,85,247,.08),
+        transparent 45%
+    ),
+
+    linear-gradient(
+        180deg,
+        #020617 0%,
+        #030712 50%,
+        #020617 100%
+    );
+
+}
+
+header{
+    display:none !important;
+}
+
+[data-testid="stHeader"]{
+    display:none !important;
+}

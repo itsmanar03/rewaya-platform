@@ -1,0 +1,235 @@
+
+/* ==========================================
+   BACKGROUND
+========================================== */
+
+.stApp{
+
+    background:
+    radial-gradient(
+        circle at top left,
+        rgba(124,58,237,.15),
+        transparent 35%
+    ),
+
+    radial-gradient(
+        circle at top right,
+        rgba(168,85,247,.10),
+        transparent 35%
+    ),
+
+    linear-gradient(
+        180deg,
+        #030712 0%,
+        #050B18 50%,
+        #020617 100%
+    );
+
+}
+
+
+
+/* HEADER */
+
+header[data-testid="stHeader"]{
+    background:transparent !important;
+}
+
+header{
+    background:transparent !important;
+}
+
+[data-testid="stToolbar"]{
+    display:none;
+}
+
+/* RTL */
+
+.block-container{
+
+    direction:rtl;
+    text-align:right;
+}
+
+h1,
+h2,
+h3,
+label,
+p{
+
+    text-align:right !important;
+
+}
+
+/* ==========================================
+   PROJECTS HERO
+========================================== */
+
+.projects-title{
+
+    color:#F8FAFC;
+
+    font-size:54px;
+
+    font-weight:800;
+
+    text-align:center;
+
+    margin-bottom:8px;
+
+    text-shadow:
+    0 0 20px rgba(168,85,247,.25);
+
+}
+
+.projects-subtitle{
+
+    color:#C4B5FD;
+
+    font-size:18px;
+
+    text-align:center;
+
+    margin-bottom:35px;
+
+}
+
+/* ==========================================
+   EXPANDERS
+========================================== */
+
+.streamlit-expanderHeader{
+
+    background:
+    rgba(17,24,39,.55);
+
+    border:
+    1px solid rgba(168,85,247,.18);
+
+    border-radius:16px;
+
+}
+
+details{
+
+    background:
+    rgba(17,24,39,.45);
+
+    border:
+    1px solid rgba(168,85,247,.18);
+
+    border-radius:18px;
+
+    margin-bottom:15px;
+
+    overflow:hidden;
+
+}
+
+summary{
+
+    padding:12px;
+
+    font-weight:700;
+
+    color:#F8FAFC;
+
+}
+
+.streamlit-expanderHeader:hover{
+
+    border:
+    1px solid rgba(168,85,247,.45);
+
+    box-shadow:
+    0 0 18px rgba(168,85,247,.18);
+
+    transition:.3s;
+
+}
+
+/* ==========================================
+   INPUTS
+========================================== */
+
+.stTextInput input,
+.stTextArea textarea{
+
+    background:#111827 !important;
+
+    color:white !important;
+
+    border:
+    1px solid rgba(168,85,247,.25) !important;
+
+    border-radius:14px !important;
+
+}
+
+.stNumberInput input,
+.stDateInput input{
+
+    background:#111827 !important;
+
+    color:white !important;
+
+    border:
+    1px solid rgba(168,85,247,.25) !important;
+
+    border-radius:14px !important;
+
+}
+
+div[data-baseweb="select"]{
+
+    background:#111827 !important;
+
+    border:
+    1px solid rgba(168,85,247,.25) !important;
+
+    border-radius:14px !important;
+
+}
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.stButton button,
+.stFormSubmitButton button{
+
+    background:
+    linear-gradient(
+        135deg,
+        #7C3AED,
+        #A855F7,
+        #D4B483
+    ) !important;
+
+    color:white !important;
+
+    border:none !important;
+
+    border-radius:16px !important;
+
+    font-weight:700 !important;
+
+    height:55px !important;
+
+}
+
+/* ==========================================
+   HIDE STREAMLIT ELEMENTS
+========================================== */
+
+[data-testid="stHeaderActionElements"]{
+    display:none !important;
+}
+
+footer{
+    display:none !important;
+}
+
+#MainMenu{
+    display:none !important;
+}

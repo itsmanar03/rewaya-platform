@@ -1,0 +1,458 @@
+/* ==========================================
+   BACKGROUND
+========================================== */
+
+.stApp{
+
+    background:
+    radial-gradient(
+        circle at top left,
+        rgba(124,58,237,.15),
+        transparent 35%
+    ),
+
+    radial-gradient(
+        circle at top right,
+        rgba(168,85,247,.10),
+        transparent 35%
+    ),
+
+    linear-gradient(
+        180deg,
+        #030712 0%,
+        #050B18 50%,
+        #020617 100%
+    );
+
+}
+
+/* ==========================================
+   RTL
+========================================== */
+
+.block-container{
+
+    direction:rtl;
+
+    text-align:right;
+
+    max-width:1400px;
+
+    padding-top:1rem !important;
+
+}
+
+label,
+p,
+span,
+div{
+
+    text-align:right;
+
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+header[data-testid="stHeader"]{
+    background:transparent !important;
+}
+
+header{
+    background:transparent !important;
+}
+
+[data-testid="stToolbar"]{
+    display:none;
+}
+
+[data-testid="stHeaderActionElements"]{
+    display:none !important;
+}
+
+/* ==========================================
+   TITLES
+========================================== */
+
+.kpis-title{
+
+    color:#F8FAFC;
+
+    font-size:60px;
+
+    font-weight:800;
+
+    text-align:center;
+
+    margin-bottom:10px;
+
+    text-shadow:
+    0 0 20px rgba(168,85,247,.25);
+
+}
+
+.kpis-subtitle{
+
+    color:#C4B5FD;
+
+    font-size:18px;
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+.section-title{
+
+    color:#F8FAFC;
+
+    font-size:28px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+
+
+/* ==========================================
+   KPI CARDS
+========================================== */
+
+.kpi-card{
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(17,24,39,.90),
+        rgba(30,41,59,.75)
+    );
+
+    border:
+    1px solid rgba(168,85,247,.25);
+
+    border-radius:20px;
+
+    padding:22px;
+
+    text-align:center;
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:
+    0 0 20px rgba(124,58,237,.12);
+
+    transition:.3s;
+
+    min-height:120px;
+
+}
+
+.kpi-card:hover{
+
+    transform:translateY(-4px);
+
+    border:
+    1px solid rgba(168,85,247,.45);
+
+    box-shadow:
+    0 0 30px rgba(168,85,247,.25);
+
+}
+
+.kpi-title{
+
+    color:#C4B5FD;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    margin-bottom:12px;
+
+    text-align:center;
+
+}
+
+.kpi-value{
+
+    color:#FFFFFF;
+
+    font-size:34px;
+
+    font-weight:700;
+
+    text-align:center;
+
+}
+
+.kpi-meta{
+
+    color:#CBD5E1;
+
+    font-size:15px;
+
+    line-height:2;
+
+    margin-top:10px;
+
+}
+
+/* ==========================================
+   FORMS
+========================================== */
+
+[data-baseweb="input"]{
+
+    background:#111827 !important;
+
+    border-radius:14px;
+
+}
+
+[data-baseweb="select"]{
+
+    background:#111827 !important;
+
+    border-radius:14px;
+
+}
+
+textarea{
+
+    background:#111827 !important;
+
+}
+
+/* ==========================================
+   KPI DETAILS EXPANDERS
+========================================== */
+
+[data-testid="stExpander"] summary{
+
+    background:
+    rgba(17,24,39,.55);
+
+    border:
+    1px solid rgba(168,85,247,.18);
+
+    border-radius:14px;
+
+}
+
+[data-testid="stExpander"]{
+
+    background:
+    rgba(17,24,39,.20);
+
+    border:
+    1px solid rgba(168,85,247,.12);
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+}
+
+/* ==========================================
+   PROGRESS BAR
+========================================== */
+
+[data-testid="stProgressBar"]{
+
+    margin-top:10px;
+
+    margin-bottom:12px;
+
+}
+
+/* ==========================================
+   ALERTS
+========================================== */
+
+[data-testid="stAlert"]{
+
+    border-radius:14px;
+
+}
+
+/* ==========================================
+   DIVIDER
+========================================== */
+
+hr{
+
+    border-color:
+    rgba(168,85,247,.12)
+    !important;
+
+}
+
+/* ==========================================
+   KPI FORM CARD
+========================================== */
+
+form{
+
+    background:
+    rgba(10,15,30,.55);
+
+    border:
+    1px solid rgba(168,85,247,.15);
+
+    border-radius:24px;
+
+    padding:25px;
+
+    margin-top:15px;
+
+    margin-bottom:25px;
+
+    backdrop-filter:blur(10px);
+
+}
+
+/* Hover */
+
+form:hover{
+
+    border:
+    1px solid rgba(168,85,247,.30);
+
+    box-shadow:
+    0 0 25px rgba(168,85,247,.15);
+
+}
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.stButton > button,
+.stFormSubmitButton > button{
+
+    width:220px !important;
+
+    height:50px !important;
+
+    min-height:50px !important;
+
+    background:
+    linear-gradient(
+        135deg,
+        #7C3AED,
+        #A855F7,
+        #D4B483
+    ) !important;
+
+    color:white !important;
+
+    border:none !important;
+
+    border-radius:14px !important;
+
+    font-weight:700 !important;
+
+    transition:.3s !important;
+
+}
+
+
+
+.stButton > button:hover,
+.stFormSubmitButton > button:hover{
+
+    transform:translateY(-2px);
+
+    background:
+    linear-gradient(
+        135deg,
+        #8B5CF6,
+        #C084FC,
+        #E7C9A9
+    ) !important;
+
+    transform:translateY(-3px);
+
+    box-shadow:
+        0 0 20px rgba(168,85,247,.35),
+        0 0 40px rgba(212,180,131,.18);
+
+}
+
+/* ==========================================
+   KPI CARDS
+========================================== */
+
+.kpi-card{
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(17,24,39,.90),
+        rgba(30,41,59,.75)
+    );
+
+    border:
+    1px solid rgba(168,85,247,.20);
+
+    border-radius:24px;
+
+    padding:24px;
+
+    margin-bottom:20px;
+
+    backdrop-filter:blur(10px);
+
+    transition:.3s;
+
+}
+
+.kpi-card:hover{
+
+    transform:translateY(-4px);
+
+    border:
+    1px solid rgba(168,85,247,.40);
+
+    box-shadow:
+    0 0 30px rgba(168,85,247,.18);
+
+}
+
+.kpi-title{
+
+    color:#F8FAFC;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.kpi-value{
+
+    color:#A855F7;
+
+    font-size:40px;
+
+    font-weight:800;
+
+    margin-bottom:15px;
+
+}
+
+.kpi-meta{
+
+    color:#CBD5E1;
+
+    font-size:15px;
+
+    line-height:2;
+
+}

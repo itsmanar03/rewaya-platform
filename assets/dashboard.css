@@ -1,0 +1,497 @@
+/* ==========================================
+   BACKGROUND
+========================================== */
+
+.stApp{
+
+    background:
+    radial-gradient(
+        circle at top left,
+        rgba(124,58,237,.15),
+        transparent 35%
+    ),
+
+    radial-gradient(
+        circle at top right,
+        rgba(168,85,247,.10),
+        transparent 35%
+    ),
+
+    linear-gradient(
+        180deg,
+        #030712 0%,
+        #050B18 50%,
+        #020617 100%
+    );
+
+}
+
+/* ==========================================
+   MAIN CONTAINER
+========================================== */
+
+.block-container{
+
+    padding-top:2rem !important;
+    max-width:1400px;
+
+}
+
+/* ==========================================
+   TITLES
+========================================== */
+
+h1{
+
+    color:#F8FAFC !important;
+    font-weight:700 !important;
+
+}
+
+h2,h3{
+
+    color:#F8FAFC !important;
+
+}
+
+/* ==========================================
+   SELECTBOX
+========================================== */
+
+div[data-baseweb="select"]{
+
+    background:#111827 !important;
+
+    border:
+    1px solid rgba(168,85,247,.25)
+    !important;
+
+    border-radius:12px !important;
+
+}
+
+/* ==========================================
+   TABLES
+========================================== */
+
+[data-testid="stDataFrame"]{
+
+    border:
+    1px solid rgba(168,85,247,.15);
+
+    border-radius:14px;
+
+}
+
+/* ==========================================
+   METRICS
+========================================== */
+/* KPI CARDS */
+
+[data-testid="metric-container"]{
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(17,24,39,.90),
+        rgba(30,41,59,.75)
+    ) !important;
+
+    border:
+    1px solid rgba(168,85,247,.25);
+
+    border-radius:20px;
+
+    padding:22px;
+
+    box-shadow:
+    0 0 20px rgba(124,58,237,.12);
+
+    transition:.3s;
+
+}
+
+[data-testid="metric-container"]:hover{
+
+    transform:translateY(-4px);
+
+    border:
+    1px solid rgba(168,85,247,.45);
+
+    box-shadow:
+    0 0 30px rgba(168,85,247,.25);
+
+}
+/* ==========================================
+   DIVIDERS
+========================================== */
+
+hr{
+
+    border-color:
+    rgba(168,85,247,.12)
+    !important;
+
+}
+
+
+
+header[data-testid="stHeader"]{
+    background:transparent !important;
+}
+
+header{
+    background:transparent !important;
+}
+
+[data-testid="stToolbar"]{
+    display:none;
+}
+
+/* ==========================================
+   DASHBOARD HERO
+========================================== */
+
+.dashboard-title{
+
+    color:#F8FAFC;
+
+    font-size:54px;
+
+    font-weight:800;
+
+    margin-bottom:8px;
+
+    letter-spacing:1px;
+
+    text-shadow:
+    0 0 20px rgba(168,85,247,.25);
+
+}
+
+.dashboard-subtitle{
+
+    color:#C4B5FD;
+
+    font-size:18px;
+
+    margin-bottom:30px;
+
+    max-width:800px;
+
+    margin-left:auto;
+
+    margin-right:auto;
+
+}
+
+
+.section-card{
+
+    background:
+    rgba(10,15,30,.55);
+
+    border:
+    1px solid rgba(168,85,247,.15);
+
+    border-radius:24px;
+
+    padding:25px;
+
+    margin-bottom:30px;
+
+    backdrop-filter:blur(10px);
+
+}
+
+/* ==========================================
+   PLOTLY CHARTS
+========================================== */
+
+.js-plotly-plot{
+
+    background:transparent !important;
+
+}
+
+.plotly{
+
+    background:transparent !important;
+
+}
+
+/* ==========================================
+   RTL DASHBOARD
+========================================== */
+
+.block-container{
+
+    direction: rtl;
+
+    text-align: right;
+
+}
+
+/* العناوين */
+
+h1,
+h2,
+h3{
+
+    text-align:right !important;
+
+}
+
+/* Subheaders */
+
+p{
+    text-align:right;
+}
+
+/* الجداول */
+
+[data-testid="stDataFrame"]{
+
+    direction:rtl;
+
+}
+
+/* الرسائل */
+
+[data-testid="stAlert"]{
+
+    text-align:right;
+
+}
+
+/* Selectbox Label */
+
+label{
+
+    text-align:right !important;
+
+}
+
+/* ==========================================
+   DATAFRAMES
+========================================== */
+
+/* الجدول كله */
+
+[data-testid="stDataFrame"]{
+
+    background:
+    rgba(17,24,39,.45) !important;
+
+    border:
+    1px solid rgba(168,85,247,.25) !important;
+
+    border-radius:18px !important;
+
+    overflow:hidden;
+
+    backdrop-filter:blur(10px);
+
+}
+
+
+/* رؤوس الأعمدة */
+
+[data-testid="stDataFrame"] thead tr th{
+
+    background:
+    linear-gradient(
+        90deg,
+        rgba(124,58,237,.30),
+        rgba(168,85,247,.15)
+    ) !important;
+
+    color:#F8FAFC !important;
+
+    font-weight:700 !important;
+
+}
+
+
+/* الصفوف */
+
+[data-testid="stDataFrame"] tbody tr{
+
+    background:
+    rgba(15,23,42,.35) !important;
+
+    color:#F8FAFC !important;
+
+}
+
+
+/* Hover */
+
+[data-testid="stDataFrame"] tbody tr:hover{
+
+    background:
+    rgba(124,58,237,.15) !important;
+
+}
+
+/* HEADER */
+
+.stDataFrame thead th{
+
+    background:#2E1065 !important;
+
+    color:#FFFFFF !important;
+
+}
+
+/* CELLS */
+
+.stDataFrame td{
+
+    background:rgba(17,24,39,.75) !important;
+
+    color:#F8FAFC !important;
+
+}
+
+/* ==========================================
+   DATA EDITOR
+========================================== */
+
+[data-testid="stDataEditor"]{
+
+    background:
+    rgba(17,24,39,.55) !important;
+
+    border:
+    1px solid rgba(168,85,247,.25) !important;
+
+    border-radius:18px !important;
+
+    overflow:hidden;
+
+}
+
+/* Header */
+
+[data-testid="stDataEditor"] thead th{
+
+    background:
+    linear-gradient(
+        90deg,
+        rgba(124,58,237,.45),
+        rgba(168,85,247,.25)
+    ) !important;
+
+    color:#FFFFFF !important;
+
+    font-weight:700 !important;
+
+}
+
+/* Cells */
+
+[data-testid="stDataEditor"] td{
+
+    background:
+    rgba(15,23,42,.60) !important;
+
+    color:#F8FAFC !important;
+
+}
+
+/* Hover */
+
+[data-testid="stDataEditor"] tr:hover td{
+
+    background:
+    rgba(124,58,237,.15) !important;
+
+}
+
+/* ==========================================
+   CHART CARDS
+========================================== */
+
+.chart-card{
+
+    background:
+    rgba(17,24,39,.45);
+
+    border:
+    1px solid rgba(168,85,247,.18);
+
+    border-radius:24px;
+
+    padding:20px;
+
+    margin-top:15px;
+
+    margin-bottom:25px;
+
+    backdrop-filter:blur(12px);
+
+}
+
+[data-testid="stHeaderActionElements"]{
+    display:none !important;
+}
+
+/* ==========================================
+   KPI CUSTOM CARDS
+========================================== */
+
+.kpi-card{
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(17,24,39,.90),
+        rgba(30,41,59,.75)
+    );
+
+    border:
+    1px solid rgba(168,85,247,.25);
+
+    border-radius:20px;
+
+    padding:18px;
+
+    text-align:center;
+
+    backdrop-filter:blur(10px);
+
+    transition:.3s;
+
+    min-height:120px;
+
+}
+
+.kpi-card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+    0 0 25px rgba(168,85,247,.25);
+
+}
+
+.kpi-title{
+
+    color:#C4B5FD;
+
+    font-size:14px;
+
+    margin-bottom:12px;
+
+}
+
+.kpi-value{
+
+    color:#FFFFFF;
+
+    font-size:34px;
+
+    font-weight:700;
+
+}

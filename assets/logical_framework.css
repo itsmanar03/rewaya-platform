@@ -1,0 +1,217 @@
+/* ==========================================
+   BACKGROUND
+========================================== */
+
+.stApp{
+
+    background:
+    radial-gradient(
+        circle at top left,
+        rgba(124,58,237,.15),
+        transparent 35%
+    ),
+
+    radial-gradient(
+        circle at top right,
+        rgba(168,85,247,.10),
+        transparent 35%
+    ),
+
+    linear-gradient(
+        180deg,
+        #030712 0%,
+        #050B18 50%,
+        #020617 100%
+    );
+
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+header[data-testid="stHeader"]{
+    background:transparent !important;
+}
+
+header{
+    background:transparent !important;
+}
+
+[data-testid="stToolbar"]{
+    display:none;
+}
+
+[data-testid="stHeaderActionElements"]{
+    display:none !important;
+}
+
+/* ==========================================
+   RTL
+========================================== */
+
+.block-container{
+
+    direction:rtl;
+    text-align:right;
+    padding-top:.5rem !important;
+
+}
+
+label,
+p,
+span,
+div{
+
+    text-align:right !important;
+
+}
+
+/* ==========================================
+   HERO
+========================================== */
+
+.framework-title{
+
+    color:#F8FAFC;
+
+    font-size:64px;
+
+    font-weight:800;
+
+    text-align:center !important;
+
+    margin-bottom:10px;
+
+    text-shadow:
+    0 0 20px rgba(168,85,247,.25);
+
+}
+
+.framework-subtitle{
+
+    color:#C4B5FD;
+
+    text-align:center !important;
+
+    font-size:18px;
+
+    margin-bottom:40px;
+
+}
+
+/* ==========================================
+   INPUTS
+========================================== */
+
+.stTextArea textarea,
+.stTextInput input{
+
+    background:#111827 !important;
+
+    color:white !important;
+
+    border:
+    1px solid rgba(168,85,247,.25) !important;
+
+    border-radius:14px !important;
+
+}
+
+div[data-baseweb="select"]{
+
+    background:#111827 !important;
+
+    border:
+    1px solid rgba(168,85,247,.25) !important;
+
+    border-radius:14px !important;
+
+}
+
+/* ==========================================
+   EXPANDERS
+========================================== */
+
+[data-testid="stExpander"]{
+
+    background:
+    rgba(17,24,39,.35);
+
+    border:
+    1px solid rgba(168,85,247,.18);
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    margin-bottom:12px;
+
+}
+
+.streamlit-expanderHeader{
+
+    background:
+    rgba(17,24,39,.55);
+
+    border-radius:18px;
+
+    font-weight:700;
+
+    color:#F8FAFC;
+
+}
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.stButton button,
+.stFormSubmitButton button{
+
+    width:150px !important;
+
+    height:50px !important;
+
+    min-height:50px !important;
+
+    background:
+    linear-gradient(
+        135deg,
+        #7C3AED,
+        #A855F7,
+        #D4B483
+    ) !important;
+
+    color:white !important;
+
+    border:none !important;
+
+    border-radius:16px !important;
+
+    font-weight:700 !important;
+
+    transition:.3s !important;
+
+}
+
+.stButton button:hover,
+.stFormSubmitButton button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 0 25px rgba(168,85,247,.35),
+    0 0 10px rgba(212,180,131,.25);
+
+}
+/* ==========================================
+   DIVIDER
+========================================== */
+
+hr{
+
+    border-color:
+    rgba(168,85,247,.15)
+    !important;
+
+}

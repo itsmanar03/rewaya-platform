@@ -1,0 +1,622 @@
+/* ==========================================
+   REPORTS HERO
+========================================== */
+
+.reports-title{
+
+    color:#F8FAFC;
+
+    font-size:60px;
+
+    font-weight:800;
+
+    text-align:center;
+
+    margin-bottom:10px;
+
+    text-shadow:
+    0 0 20px rgba(168,85,247,.25);
+
+}
+
+.reports-subtitle{
+
+    color:#C4B5FD;
+
+    font-size:18px;
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+/* ==========================================
+   REPORT CARDS
+========================================== */
+
+.report-card{
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(17,24,39,.90),
+        rgba(30,41,59,.75)
+    );
+
+    border:
+    1px solid rgba(168,85,247,.20);
+
+    border-radius:24px;
+
+    padding:25px;
+
+    margin-bottom:20px;
+
+    backdrop-filter:blur(10px);
+
+}
+
+.report-card h3{
+
+    color:#F8FAFC;
+
+    margin-bottom:15px;
+
+    text-align:right;
+
+}
+
+.report-card p{
+
+    color:#CBD5E1;
+
+    line-height:2;
+
+    text-align:right !important;
+
+}
+
+/* ==========================================
+   BACKGROUND
+========================================== */
+
+.stApp{
+
+    background:
+    radial-gradient(
+        circle at top left,
+        rgba(124,58,237,.15),
+        transparent 35%
+    ),
+
+    radial-gradient(
+        circle at top right,
+        rgba(168,85,247,.10),
+        transparent 35%
+    ),
+
+    linear-gradient(
+        180deg,
+        #030712 0%,
+        #050B18 50%,
+        #020617 100%
+    );
+
+}
+
+/* ==========================================
+   RTL
+========================================== */
+
+.block-container{
+
+    direction:rtl;
+
+    text-align:right;
+
+    max-width:1400px;
+
+    padding-top:1rem !important;
+
+}
+
+/* ==========================================
+   SELECTBOX
+========================================== */
+
+div[data-baseweb="select"]{
+
+    background:#111827 !important;
+
+    border:
+    1px solid rgba(168,85,247,.25)
+    !important;
+
+    border-radius:14px !important;
+
+}
+
+/* ==========================================
+   METRIC CARDS
+========================================== */
+
+[data-testid="metric-container"]{
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(17,24,39,.90),
+        rgba(30,41,59,.75)
+    ) !important;
+
+    border:
+    1px solid rgba(168,85,247,.25);
+
+    border-radius:20px;
+
+    padding:22px;
+
+    box-shadow:
+    0 0 20px rgba(124,58,237,.12);
+
+    transition:.3s;
+
+}
+
+[data-testid="metric-container"]:hover{
+
+    transform:translateY(-4px);
+
+    border:
+    1px solid rgba(168,85,247,.45);
+
+    box-shadow:
+    0 0 30px rgba(168,85,247,.25);
+
+}
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.stButton > button,
+.stDownloadButton > button{
+
+    background:
+    linear-gradient(
+        135deg,
+        #7C3AED,
+        #A855F7,
+        #D4B483
+    ) !important;
+
+    color:white !important;
+
+    border:none !important;
+
+    border-radius:14px !important;
+
+    font-weight:700 !important;
+
+}
+
+/* ==========================================
+   TEXT AREA
+========================================== */
+
+textarea{
+
+    background:#111827 !important;
+
+    border-radius:14px;
+
+}
+
+/* ==========================================
+   DIVIDER
+========================================== */
+
+hr{
+
+    border-color:
+    rgba(168,85,247,.12)
+    !important;
+
+}
+
+/* ==========================================
+   HIDE STREAMLIT HEADER
+========================================== */
+
+header[data-testid="stHeader"]{
+    background:transparent !important;
+}
+
+header{
+    background:transparent !important;
+}
+
+[data-testid="stToolbar"]{
+    display:none !important;
+}
+
+[data-testid="stHeaderActionElements"]{
+    display:none !important;
+}
+
+/* ==========================================
+   FORCE RTL REPORT CONTENT
+========================================== */
+
+.block-container{
+
+    direction:rtl !important;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    text-align:right !important;
+
+}
+
+p{
+
+    text-align:right !important;
+
+}
+
+ul{
+
+    direction:rtl !important;
+
+    text-align:right !important;
+
+}
+
+li{
+
+    text-align:right !important;
+
+}
+
+[data-testid="stMarkdownContainer"]{
+
+    direction:rtl !important;
+
+    text-align:right !important;
+
+}
+
+[data-testid="stText"]{
+
+    direction:rtl !important;
+
+    text-align:right !important;
+
+}
+
+/* ==========================================
+   DASHBOARD KPI CARDS
+========================================== */
+
+.kpi-card{
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(17,24,39,.90),
+        rgba(30,41,59,.75)
+    );
+
+    border:
+    1px solid rgba(168,85,247,.25);
+
+    border-radius:20px;
+
+    padding:24px;
+
+    text-align:center;
+
+    backdrop-filter:blur(10px);
+
+    transition:.3s;
+
+    min-height:140px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    box-shadow:
+    0 0 20px rgba(124,58,237,.12);
+
+    margin-bottom:15px;
+
+}
+
+.kpi-card:hover{
+
+    transform:translateY(-4px);
+
+    border:
+    1px solid rgba(168,85,247,.45);
+
+    box-shadow:
+    0 0 30px rgba(168,85,247,.25);
+
+}
+
+.kpi-title{
+
+    color:#C4B5FD;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    margin-bottom:12px;
+
+}
+
+.kpi-value{
+
+    color:#FFFFFF;
+
+    font-size:38px;
+
+    font-weight:800;
+
+}
+
+/* تخلي الأربع كروت نفس الارتفاع */
+
+div[data-testid="column"]{
+
+    display:flex;
+
+    align-items:stretch;
+
+}
+
+div[data-testid="column"] .kpi-card{
+
+    width:100%;
+
+}
+
+/* ==========================================
+   DASHBOARD KPI CARDS
+========================================== */
+
+[data-testid="metric-container"]{
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(17,24,39,.90),
+        rgba(30,41,59,.75)
+    ) !important;
+
+    border:
+    1px solid rgba(168,85,247,.25) !important;
+
+    border-radius:20px !important;
+
+    padding:22px !important;
+
+    box-shadow:
+    0 0 20px rgba(124,58,237,.12) !important;
+
+    backdrop-filter:blur(10px);
+
+    transition:.3s !important;
+
+}
+
+[data-testid="metric-container"]:hover{
+
+    transform:translateY(-4px);
+
+    border:
+    1px solid rgba(168,85,247,.45) !important;
+
+    box-shadow:
+    0 0 30px rgba(168,85,247,.25) !important;
+
+}
+
+[data-testid="metric-container"] label{
+
+    color:#C4B5FD !important;
+
+    font-size:14px !important;
+
+    text-align:center !important;
+
+}
+
+[data-testid="metric-container"] [data-testid="stMetricValue"]{
+
+    color:#FFFFFF !important;
+
+    font-size:34px !important;
+
+    font-weight:700 !important;
+
+    text-align:center !important;
+
+}
+
+/* ==========================================
+   DASHBOARD KPI CARDS
+========================================== */
+
+.dashboard-kpi-card{
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(17,24,39,.90),
+        rgba(30,41,59,.75)
+    );
+
+    border:
+    1px solid rgba(168,85,247,.25);
+
+    border-radius:20px;
+
+    padding:22px;
+
+    text-align:center;
+
+    backdrop-filter:blur(10px);
+
+    transition:.3s;
+
+    box-shadow:
+    0 0 20px rgba(124,58,237,.12);
+
+    min-height:120px;
+}
+
+.dashboard-kpi-card:hover{
+
+    transform:translateY(-4px);
+
+    border:
+    1px solid rgba(168,85,247,.45);
+
+    box-shadow:
+    0 0 30px rgba(168,85,247,.25);
+}
+
+.dashboard-kpi-title{
+
+    color:#C4B5FD;
+
+    font-size:14px;
+
+    margin-bottom:12px;
+}
+
+.dashboard-kpi-value{
+
+    color:#FFFFFF;
+
+    font-size:34px;
+
+    font-weight:700;
+}
+/* ==========================================
+   UNIFIED BUTTON SIZE
+========================================== */
+
+.stButton > button,
+.stDownloadButton > button{
+
+    width:220px !important;
+
+    height:50px !important;
+
+    min-height:50px !important;
+
+    display:block !important;
+
+    margin:auto !important;
+}
+
+/* ==========================================
+   GLOBAL HOVER EFFECT
+========================================== */
+
+/* Report Cards */
+
+.report-card{
+
+    transition:.3s;
+}
+
+.report-card:hover{
+
+    transform:translateY(-4px);
+
+    border:
+    1px solid rgba(168,85,247,.40);
+
+    box-shadow:
+    0 0 30px rgba(168,85,247,.20);
+}
+
+
+/* KPI Cards */
+
+.dashboard-kpi-card{
+
+    transition:.3s;
+}
+
+.dashboard-kpi-card:hover{
+
+    transform:translateY(-4px);
+
+    border:
+    1px solid rgba(168,85,247,.45);
+
+    box-shadow:
+    0 0 30px rgba(168,85,247,.25);
+}
+
+
+/* Buttons */
+
+.stButton > button,
+.stDownloadButton > button{
+
+    transition:.3s !important;
+}
+
+.stButton > button:hover,
+.stDownloadButton > button:hover{
+
+    background:
+    linear-gradient(
+        135deg,
+        #8B5CF6,
+        #C084FC,
+        #E7C9A9
+    ) !important;
+
+    transform:translateY(-3px);
+
+    box-shadow:
+        0 0 20px rgba(168,85,247,.35),
+        0 0 40px rgba(212,180,131,.18) !important;
+}
+
+/* Selectboxes */
+
+div[data-baseweb="select"]{
+
+    transition:.3s;
+}
+
+div[data-baseweb="select"]:hover{
+
+    border:
+    1px solid rgba(168,85,247,.45)
+    !important;
+
+    box-shadow:
+    0 0 20px rgba(168,85,247,.20);
+}
